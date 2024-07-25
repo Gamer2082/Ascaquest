@@ -1,0 +1,8 @@
+name: ascaquest
+version: '${project.version}'
+main: fr.vanibels.ascaquest.Ascaquest
+api-version: '1.16'
+prefix: ASQU
+depend: [ViaVersion, ProtocolLib]
+authors: [Vanibels Epsilon]
+description: Gerer efficasement vos quet et vos PNG de quet avec Ascaquest
