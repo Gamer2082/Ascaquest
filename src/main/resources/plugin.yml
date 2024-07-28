@@ -3,6 +3,13 @@ version: '${project.version}'
 main: fr.vanibels.ascaquest.Ascaquest
 api-version: '1.16'
 prefix: ASQU
-depend: [ViaVersion, ProtocolLib]
+# depend: [ViaVersion, ProtocolLib]
 authors: [Vanibels Epsilon]
-description: Gerer efficasement vos quet et vos PNG de quet avec Ascaquest
+description: Gerer efficasement vos quetes et vos PNG de quete avec Ascaquest
+commands:
+  quest:
+    aliases: q
+    usage: /quest help,/q help
+  qnpc:
+    usage: /qnpc help
+    permission: ascaquest.npc
