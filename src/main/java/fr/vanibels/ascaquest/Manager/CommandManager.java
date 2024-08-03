@@ -9,7 +9,7 @@ import org.bukkit.ChatColor;
 public class CommandManager {
     public static Ascaquest ins = Ascaquest.instance;
     public static void load() {
-        ins.getCommand("quest").setExecutor(new QuestCommandExecutor());
+        ins.getCommand("quest").setExecutor(new QuestCommandExecutor(ins));
         Bukkit.getLogger().info(ChatColor.GREEN + "Load quest command");
         ins.getCommand("qnpc").setExecutor(new QuestNPCCommandExecutor());
         Bukkit.getLogger().info(ChatColor.GREEN + "Load npc quest command");

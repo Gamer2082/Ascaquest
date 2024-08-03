@@ -1,0 +1,5 @@
+# this is a config file ...
+# {player} for get player username
+# {quest} for get quest title
+messages:
+  create: Quest {quest} are successful create {player}
